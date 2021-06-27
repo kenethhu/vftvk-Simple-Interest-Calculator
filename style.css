@@ -7,10 +7,32 @@ body {
 h1{color:grey;font-family:verdana}
 
 .maindiv {
-    background-color:white;
+   background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius:25px;
-    margin:auto;
+     margin:auto;
+}
+
+.content {
+  margin:auto;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  gap: 15px;
+  /* padding-bottom: 5px; */
+
+
+}
+
+.col > div {  
+   display: flex;
+    height: 30px;
+    align-items: center;
+
+}
+.footer > div {
+  padding-bottom: 10px;
+  width:300px;
 }
